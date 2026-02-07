@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "date": "2026-01-17T15:50:34.687691",
+    "customer_name": "rohit",
+    "items": [
+      {
+        "medicine_id": 1,
+        "qty": 2,
+        "price": 89.0
+      }
+    ],
+    "payment_method": "upi",
+    "total": 160.2
+  }
+]
