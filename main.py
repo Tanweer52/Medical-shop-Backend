@@ -11,11 +11,12 @@ app = FastAPI(title="Medical Shop Backend", version="1.0.0")
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Next.js dev server
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,  # must be False when using "*"
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 DATA_FILE = "medicines.json"
 SALES_FILE = "sales.json"
